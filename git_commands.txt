@@ -5,3 +5,22 @@ git status
 git commit -m"added testing files"                                                                                                                                                          
 rm testing.py                                                                                                                                                                               
 git restore testing.py 
+                                                                                                                                                                     
+history                                                                                                                                                                                     
+git remote add origin ghp_YOUR_Repo_HERE                                                                                                            
+git remote -v                                                                                                                                                                               
+git remote set-url origin                                                                                                                                                                   
+git remote set-url origin ghp_YOUR_TOKEN_HERE                                                               
+git remote -v                                                                                                                                                                               
+git push origin master                                                                                                                                                                      
+python testing.py                                                                                                                                                                           
+git push origin master                                                                                                                                                                      
+git status                                                                                                                                                                                  
+git add testing.py                                                                                                                                                                          
+git add git_commands.txt                                                                                                                                                                    
+git status                                                                                                                                                                                  
+git push origin master                                                                                                                                                                      
+git commit -m "added git commands and updated testing file"                                                                                                                                 
+git push origin master                                                                                                                                                                      
+git remote -v                                                                                                                                                                               
+git push origin master  
